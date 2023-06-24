@@ -1,0 +1,57 @@
+.dashboard-container {
+  width: 100%;
+  padding: 2rem;
+  min-height: 100vh;
+  padding-top: 4rem;
+  background-color: rgb(211, 231, 211);
+  & > button {
+    background-color: white;
+    display: block;
+    width: 100px;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    color: green;
+    border: solid 2px green;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h1.info {
+    text-align: center;
+    font-size: 2rem;
+    margin: 3rem 0;
+  }
+  .election-cards > .loader {
+    width: 8rem;
+    height: 8rem;
+    margin: rem auto;
+    display: block;
+    &::after {
+      border-color: black transparent black transparent;
+      width: 80px;
+      height: 80px;
+    }
+  }
+  h2.empty {
+    text-align: center;
+    font-size: 4rem;
+    padding: 5rem 0;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    h1 {
+      font-size: 3rem;
+    }
+    button {
+      background-color: green;
+      color: white;
+      font-weight: 500;
+      border: none;
+      border-radius: 5px;
+      padding: 0.8rem;
+    }
+  }
+}

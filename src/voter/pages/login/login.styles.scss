@@ -1,0 +1,63 @@
+.login-container {
+  min-height: 100vh;
+  /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=5fd6e2&c2=58bf7d&gt=l&gd=dtl
+*/
+  background: #5fd6e2;
+  background: linear-gradient(135deg, #5fd6e2, #58bf7d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  form {
+    width: 100%;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    em.success,
+    em.error {
+      color: white;
+      font-style: normal;
+      font-weight: 500;
+      margin: 1rem 0;
+      display: block;
+      font-size: 1.4rem;
+    }
+
+    h1 {
+      color: #fff;
+      text-align: center;
+      font-size: 4rem;
+    }
+    input {
+      width: 90%;
+      margin: 1rem auto;
+      display: block;
+      font-size: 2rem;
+      outline: none;
+      border-radius: 5px;
+      border: none;
+      padding: 0.5rem 1rem;
+    }
+    button {
+      background-color: #222722;
+      width: 90%;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      font-size: 2rem;
+    }
+    p {
+      margin-top: 2rem;
+      color: #fff;
+      text-align: center;
+      font-size: 1.8rem;
+      a {
+        color: #fff;
+      }
+    }
+  }
+}
